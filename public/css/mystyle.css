@@ -62,6 +62,12 @@ header {
     font-style: 'Dancing Script',
 }
 
+footer {
+    background-color: azure;
+    text-align: center;
+    font-size: 0.7rem;
+
+}
 
 @media screen and (min-width: 600px) {
 
