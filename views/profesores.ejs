@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <%- include('templates/nav.ejs') -%>
+        <%- include('templates/header.ejs') -%>
+
+            <link rel="stylesheet" href="/css/mystyle.css">
+</head>
+
+<body>
+    <main>
+        <h2>Estos son nuestros profesores</h2>
+        <article>
+            <h3>Francisco Ibáñez</h3>
+            <p>Francisco Ibáñez Talavera nació en Barcelona el 15 de marzo de 1936, cuatro meses antes de que estallara
+                la guerra civil española, en el seno de una familia de clase media baja, compuesta por el padre, de
+                origen valenciano y contable de profesión; la madre, de origen andaluz, y tres hermanos.​ Desde muy
+                pequeño, desarrolló una gran afición por los tebeos y el cine cómico estadounidense.​ En octubre de
+                1947, con once años, se publicó su primer dibujo en la revista Chicos.​ </p>
+            <div class="fotos profes">
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Francisco_Iba%C3%B1ez_2336_%28cropped%29.jpg/330px-Francisco_Iba%C3%B1ez_2336_%28cropped%29.jpg"
+                        alt="Creador Mortadelo y Filemón">
+                </figure>
+            </div>
+        </article>
+        <article>
+            <h3>Aquí los profeesores</h3>
+            <p> Melvin James Kaminsky (Nueva York; 28 de junio de 1926), más conocido como Mel Brooks, es un guionista,
+                actor, director y productor de cine estadounidense, especializado en el género de comedia.
+
+                Brooks se convirtió en uno de los directores de cine más exitosos de la década de 1970, con muchas de
+                sus películas entre las más prolíficas comercialmente en el año en que fueron estrenadas</p>
+            <div class="fotos profes">
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/MelBrooksApr10.jpg/330px-MelBrooksApr10.jpg"
+                        alt="Director de las locas, locas aventuras de RObin Hood">
+                </figure>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <%- include('templates/footer.ejs') -%>
+    </footer>
+</body>
+
+</html>

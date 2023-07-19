@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <%- include('templates/nav.ejs') -%>
+        <%- include('templates/header.ejs') -%>
+
+            <link rel="stylesheet" href="/css/mystyle.css">
+
+</head>
+
+<body>
+    <main>
+        <article>
+            <h2>Echa un vistazo a nuestras instalaciones</h2>
+            <p>Es importante que las personas reciban antes de acceder a Jovent, la información necesaria sobre nuestros
+                programas (Orientación, Formación y Trabajo). Por este motivo, nos parece interesante que se pueda
+                realizar una visita en la que se conozcan de primera mano nuestros servicios y nuestras instalaciones.
+                Esta visita le puede ofrecer a la persona la posibilidad de ver el ritmo de las formaciones (materiales,
+                maquinaria, alumnado en formación, …) y, aclarar todas las dudas que tenga en relación a nuestros
+                servicios. Se pueden concertar visitas individuales y grupales (tanto si es un acompañamiento de otro
+                recurso como si se quiere llevar a cabo como particular interesado) </p>
+            <div class="fotos instalaciones">
+                <figure>
+                    <img src="https://img2.rtve.es/v/5669971?w=1600&preview=1600953871882.jpg" alt="Aulas preescolar">
+                    <figcaption> Crea auténticos grupos de trabajo en nuestras aulas.</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="https://www.krion.com/uploads/tmp/paredes_de_cafeteria_selva.jpg"
+                        alt="Cafetería">
+                    <figcaption> Recupera energías en nuestra cafetería.</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://i.ytimg.com/vi/bXbxQjFkL1Q/maxresdefault.jpg" alt="Mujer en un telar">
+                    <figcaption> Las mejores herramientas artesanales.</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://fotografias.larazon.es/clipping/cmsimages02/2019/08/09/563E31D8-132B-40D5-A456-B958D246A710/98.jpg?crop=1031,580,x0,y28&width=1900&height=1069&optimize=low&format=webply"
+                        alt="Río desbordándoseS">
+                    <figcaption> Rodeado de naturaleza.</figcaption>
+                </figure>
+            </div>
+        </article>
+
+
+    </main>
+    <%- include('templates/footer.ejs') -%>
+</body>
+
+</html>
